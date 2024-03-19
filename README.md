@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Setup and Usage
 
-## Getting Started
+To get started, you must have node version 20 or higher, and the latest version of Next JS downloaded on your machine. You can find guides on installing those here: [Node.js — Download (nodejs.org)](https://nodejs.org/en/download) 
 
-First, run the development server:
+You must also have MetaMask downloaded in your browser. You can install MetaMask here: [Download MetaMask: The Premier Blockchain Wallet App and Browser Extension](https://metamask.io/download/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Once you have node downloaded, clone the repository and in the root directory type `npm i` into the command line and hit `enter` on your keyboard. This will download all the necessary dependencies to run the project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once you have downloaded all of the dependencies, you may run the app by typing `npm run dev` into the command line. This will start the app on `localhost:3000` To view the app you should navigate to `localhost:3000` in your browser.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Click on the MetaMask extension towards the top right of your browser, in the MetaMask UI click the symbol at the top left, and select `Sepolia` as the network, you may have to click `Show test networks` in the  UI to see Sepolia. If you do not have any Sepolia in your wallet, you can click on the 	`Faucet` link in the navbar of the website running on localhost, and get some Sepolia tokens to your wallet from there.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+On the site, to Mint and Register an NFT, click the connect wallet button, which will prompt connection to your metamask, once connected, you may click on the Mint and Register button, which will generate an image, upload it to IPFS, and Mint an NFT for you. It will also register the NFT as an IP Asset on Story Protocol!
+You will have to approve `2` transactions for this to occur, one for minting the NFT, and the other for registering the NFT as an IP Asset on Story. Upon successful Mint and Register, a link will be shown that you can follow to see your NFT on chain! 
 
-## Learn More
+If you would like to change accounts, go to metamask and click on a different account, and refresh the page and click Connect Wallet. 
 
-To learn more about Next.js, take a look at the following resources:
+# Documentation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The design documentation for the project can be found here: [Story Documentation (notion.site)](https://almond-derby-021.notion.site/Story-Documentation-133c300398e942869cdcbf57e57f1586)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Test log
 
-## Deploy on Vercel
+A Test log for the project can be found here: [Tests (notion.site)](https://almond-derby-021.notion.site/Tests-c1cc7538e9424ee38611c99d62dfa940)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Some NFTs
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you want to see some NFTs that I have minted, check out this link: [0xef9f6ed94e5ab0ee71766acf0d766719819959a4 - Profile | OpenSea](https://testnets.opensea.io/0xEF9F6ED94E5AB0EE71766ACf0d766719819959a4?search[chains][0]=SEPOLIA)
+
