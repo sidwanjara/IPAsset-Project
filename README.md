@@ -27,5 +27,5 @@ A Test log for the project can be found here: [Tests (notion.site)](https://almo
 
 If you want to see some NFTs that I have minted, check out this link: [0xef9f6ed94e5ab0ee71766acf0d766719819959a4 - Profile | OpenSea](https://testnets.opensea.io/0xEF9F6ED94E5AB0EE71766ACf0d766719819959a4?search[chains][0]=SEPOLIA)
 
-##Final Remarks
+## Final Remarks
 There were some issues towards the end of developing this, the interactions with Story SDK suddenly became buggy out of nowhere without any code changed on 3/18/2024, in the days before this the code worked as intended. On 3/18/2024 the interactions with the Story SDK are on and off, yielding an error from Metamask stating `RPC Error -32603, reverted` 
